@@ -28,7 +28,8 @@ WIP!
 - [X] Add more supported drivers (ATA, SCSI, sound)
 - [X] Implement module loading
 - [X] Load modules from the initramfs floppy (hopefully fit all required modules with busybox to initramfs floppy...) 
-- [ ] Disable unneeded debug options from the kernel to save some critical floppy space
+- [X] Disable unneeded debug options from the kernel to save some critical floppy space
 - [X] Test module loading with simple serial module
-- [ ] Modprobe included in busybox complains about xz compressed kernel modules (but they do work so...) and doesn't support removing modules, so maybe I should compile kmod and use the full modprobe. I'll keep using the busybox one for now.
+- [X] Modprobe included in busybox complains about xz compressed kernel modules (but they do work so...) and doesn't support removing modules, so maybe I should compile kmod and use the full modprobe. I'll keep using the busybox one for now.
+- [ ] Try to compile a static program for testing the build environment eg. nano
 - [ ] Add more age-appropriate modules and hopefully fit them on one floppy.
