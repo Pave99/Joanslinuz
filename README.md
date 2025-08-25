@@ -33,3 +33,5 @@ WIP!
 - [X] Modprobe included in busybox complains about xz compressed kernel modules (but they do work so...) and doesn't support removing modules, so maybe I should compile kmod and use the full modprobe. I'll keep using the busybox one for now.
 - [ ] Try to compile a static program for testing the build environment eg. nano
 - [ ] Add more age-appropriate modules and hopefully fit them on one floppy.
+- [ ] Fix a wrong floppy mounted error, when a correct floppy is installed (always works on the second time though...)
+- [ ] Fix a annoying crng init done dmesg notification
